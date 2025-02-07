@@ -1,6 +1,6 @@
 # Vehicle Counting with YOLO11 and Flask Dashboard
 ## Description
-Ce projet utilise le modèle YOLO11 pour détecter et compter les véhicules (voitures, camions, vélos, etc.) passant sur une vidéo, qu'elle soit en direct ou préenregistrée. Les statistiques issues de cette analyse sont ensuite affichées sur un dashboard interactif via une interface web développée avec Flask.
+Ce mini projet utilise le modèle YOLO11 pour détecter et compter les véhicules (voitures, camions, vélos, etc.) passant sur une vidéo, qu'elle soit en direct ou préenregistrée. Les statistiques issues de cette analyse sont ensuite affichées sur un dashboard interactif via une interface web développée avec Flask.
   
 L'application différencie également :
 - Le sens de passage des véhicules.
