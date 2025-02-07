@@ -149,7 +149,7 @@ La solution repose sur la position du centre du véhicule par rapport à une éq
 Les véhicules qui sortent de la scène ou ne sont plus détectés doivent être supprimés pour éviter de maintenir inutilement des objets fantômes dans la mémoire.
 
 **Solution** :  
-Seuls les objets encore visibles dans la frame actuelle sont conservés dans la liste des tracks.
+Les objets non détectés durant un certain nombre de frames consécutives sont supprimés de la liste des tracks. 
 
 **Pourquoi cette solution** :
 - Cela maintient une gestion efficace de la mémoire.
