@@ -11,10 +11,10 @@ Cloner le repo :
 `git clone https://github.com/eltar14/projet-comptage.git`
 
 Créer un venv :  
-`python -m venv <nom de votre environnement virtuel, soyez créatif !>`  
+`python -m venv venvcomptage`  
 puis  
-`source venv/bin/activate`    # Linux/Mac  
-`.\venv\Scripts\activate`      # Windows 
+`source venvcomptage/bin/activate`    # Linux/Mac  
+`.\venvcomptage\Scripts\activate`      # Windows 
 
 Installer les dépendances 
 `pip install -r requirements.txt`  
