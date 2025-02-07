@@ -6,25 +6,29 @@ L'application différencie également :
 - Le sens de passage des véhicules.
 - Le type de véhicule détecté.
 
+![image1.png](readme_imgs/image1.png)
+<img src="readme_imgs/image2.png" alt="dashboard" width="800">
+
 ## Installation   
 Cloner le repo :  
 `git clone https://github.com/eltar14/projet-comptage.git`
 
 Créer un venv :  
-`python -m venv venvcomptage`  
+`python -m venv venvcomptage`
 puis  
-`source venvcomptage/bin/activate`    # Linux/Mac  
-`.\venvcomptage\Scripts\activate`      # Windows 
+`source venvcomptage/bin/activate` (Linux/Mac)  
+`.\venvcomptage\Scripts\activate` (Windows) 
 
-Installer les dépendances 
-`pip install -r requirements.txt`  
+
+Installer les dépendances  
+`pip install -r requirements.txt`
 
 Il vous faudra aussi télécharger une vidéo avec des voitures qui passent : 
 [https://www.youtube.com/watch?v=e_WBuBqS9h8](https://www.youtube.com/watch?v=e_WBuBqS9h8)
 
 
 ## Lancer l'application 
-`python main.py `
+`python main.py`  
 L'application lancera deux processus en parallèle :
 
 - L'API Flask (appel via [http://localhost:5000/counts](http://localhost:5000/counts)).
